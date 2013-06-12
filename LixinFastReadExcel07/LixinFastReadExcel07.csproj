@@ -42,10 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cell.cs" />
+    <Compile Include="Common.cs" />
     <Compile Include="LixinFastReadExcel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Row.cs" />
     <Compile Include="ShareString.cs" />
+    <Compile Include="SheetData.cs" />
     <Compile Include="SheetStruct.cs" />
+    <Compile Include="Space.cs" />
+    <Compile Include="WorkSheet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
